@@ -1,0 +1,368 @@
+/******************global css************/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,span,p,button,a,input{
+	font-family: 'Poppins', sans-serif;
+
+}
+
+a{
+	 text-decoration:none;
+}
+/************google font**************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/****************header section css****************/
+header{
+	width: 100%;
+	padding: 25px 0px;
+	position: absolute;
+}
+.btn-outline-success{
+	background-color: #2500f9!important;
+	color: white!important;
+	padding: 12px 30px!important;
+	border:none!important;
+	border-radius: 35px!important;
+	font-weight: bold!important;
+}
+.navbar-nav{
+	margin-right: 32px;
+}
+.nav-item{
+	margin:0px 16px;
+}
+.nav-link{
+	color: #242f51!important;
+	font-size: 16px;
+}
+/************banner section css**************/
+.banner{
+	width: 100%;
+	padding-top:100px;
+	background:url(../image/banner.png);
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+.banner .text-part h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #242f51;
+}
+.banner .text-part p{
+     font-size:15px;
+     font-weight:400;
+     margin:20px 0px 42px 0px;
+     width: 70%;
+
+}
+.banner .col-md-6{
+	display: flex;
+	align-items: center;
+}
+.banner a{
+	text-decoration: none;
+}
+.banner .hint{
+	display: inline-block;
+	background-color: #e2eaed;
+	padding: 0px 42px 0px 0px;
+	border-radius: 35px;
+}
+.banner .hint span{
+	color: #242f51;
+	font-weight: 500;
+}
+.banner .hint i{
+	width:35px; 
+	height:35px;
+	background:#feaa25;
+	text-align:center; 
+	line-height:35px;
+	color: white;
+	border-radius: 35px;
+}
+
+/*********client showcase section css**********/
+.client{
+	text-align: center;
+	padding: 80px 0px;
+}
+.client h6{
+	color: #242f51;
+	font-weight: 600;
+}
+
+.owl-carousel .owl-item img{
+	width: auto!important;
+	vertical-align: center;
+}
+
+/*********features section css**************/
+.features{
+	width: 100%;
+   padding:50px 0px;
+}
+.features h1{
+	font-size:35px;
+	font-weight: 700;
+	color:#242f51;
+	width: 70%;
+}
+.features p{
+	font-size:18px;
+	font-weight: 500;
+	color:#242f51;
+	width: 90%;
+	padding: 12px 0px;
+
+}
+.features .ft-item-text{
+	text-align: left;
+}
+.features .ft-item1 h6{
+	font-size: 22px;
+	font-weight: 600;
+	color: #f55767;
+}
+.features .ft-item1 p,
+.features .ft-item2 p,
+.features .ft-item3 p{
+	font-size: 18px;
+	color: #616368;
+	font-weight: 500;
+}
+.features .ft-item2 h6{
+	font-size: 22px;
+	font-weight: 600;
+	color: #2563ff;
+}
+.features .ft-item3 h6{
+	font-size: 22px;
+	font-weight: 600;
+	color: #40975f;
+}
+
+/**********smart jackpot section css***********/
+.smrt-jackpot{
+	width: 100%;
+	padding: 60px 0px;
+
+}
+.smrt-jackpot h1{
+	font-size:50px;
+	color:#242f51;
+	font-weight:600;
+	border-right: solid 2px #b9b9b8;
+	padding-bottom: 40px;
+}
+.smrt-jackpot p{
+	font-size: 18px;
+	font-weight: 500;
+	color: #7a7c80;
+	width: 75%;
+}
+.smrt-jackpot h6{
+	font-size: 22px;
+	font-weight: 600;
+	padding:30px 0px 10px 0px;
+}
+.smrt-jackpot p{
+	font-size: 16px;
+	color: #616368;
+	font-weight: 500;
+}
+.smrt-jackpot .payout{
+	color:#f55767;
+}
+.smrt-jackpot .network{
+	color:#2563ff;
+}
+.smrt-jackpot .reward{
+	color:#40975f; 
+}
+
+
+/**********code integation section css************/
+.code-integation{
+	width: 100%;
+	padding:60px;
+}
+.code-integation h1{
+	font-size:50px;
+	color:#242f51;
+	font-weight:700;
+	padding-bottom: 40px;
+}
+.code-integation p{
+	font-size: 16px;
+	color: #616368;
+	font-weight: 500;
+	width: 90%;
+}
+
+/**********app choosing section css************/
+.app-choosing{
+	width: 100%;
+	padding:80px 0px;
+}	
+.app-choosing .top-part{
+	text-align: center;
+	padding: 0px 265px;
+	
+	
+}
+.app-choosing .top-part h1{
+	font-size:50px;
+	color:#242f51;
+	font-weight:700;
+	padding-bottom: 20px;
+}
+.app-choosing .top-part p{
+	font-size: 16px;
+	color: #616368;
+	font-weight: 500;
+	
+}
+.app-choosing .middle-part h6,
+.app-choosing .bottom-part h6
+{
+	font-size: 22px;
+	font-weight: 600;
+	padding: 15px 0px;
+
+}
+.app-choosing .middle-part p,
+.app-choosing .bottom-part p{
+	font-size: 16px;
+	color: #616368;
+	font-weight: 500;
+	padding: 0px 50px;
+
+}
+.app-choosing .middle-part .col-md-4,
+.app-choosing .bottom-part .col-md-4
+{
+	text-align: center;
+}
+
+/**********ultimate features section css*************/
+.ultimate-features{
+	width: 100%;
+	padding: 60px 0px;
+}
+.ultimate-features .top-part{
+	width: 75%;
+}
+
+.ultimate-features .top-part h1{
+	font-size:50px;
+	color:#242f51;
+	font-weight:700;
+	padding-bottom: 20px;
+}
+.ultimate-features .top-part p{
+	font-size: 16px;
+	color: #616368;
+	font-weight: 500;
+}
+.ultimate-features .middle-part h6,
+.ultimate-features .bottom-part h6
+{    font-size: 22px;
+	font-weight: 600;
+	padding: 25px 0px 8px 0px;
+	
+} 
+.ultimate-features .middle-part p,
+.ultimate-features .bottom-part p
+{
+	font-size: 16px;
+	color: #616368;
+	font-weight: 500;
+	padding: 10px 0px 25px 0px;
+}
+
+
+/**********client satisfaction section css***************/
+.feedback{
+	padding:60px 0px;
+}
+.feedback h1{
+	font-size:45px;
+	color:#242f51;
+	font-weight:700;
+	padding-bottom: 20px;
+
+}
+.feedback .left-image{
+	padding-top: 200px;
+}
+.feedback .top-part p{
+	font-size: 15px;
+	color: #616368;
+	font-weight: 500;
+	padding: 10px 70px 25px 0px;
+}
+.feedback .client-feedback ul{
+	padding-left: 0rem!important;
+}
+.feedback .client-feedback ul li{
+	list-style: none;
+	display: inline-block;
+	color: #ffcc00;
+}
+.feedback .client-feedback h6{
+	font-size: 22px;
+	font-weight: 600;
+	padding: 10px 0px 15px 0px;
+}
+.feedback .client-feedback p{
+	font-size: 15px;
+	color: #616368;
+	font-weight: 600;
+	padding-right: 70px;
+}
+
+.client-des{
+	padding:60px 0px 0px 50px;
+}
+.client-des h6{
+	font-size: 22px;
+	font-weight: 600;
+}
+.client-des p{
+	font-size: 15px;
+	color: #616368;
+	font-weight: 600;
+}
+
+
+/*********FAQ section css************/
+  .faq{
+  	width: 100%;
+  	text-align: center;
+  	padding: 60px 0px;
+  }
+ .faq h1{
+ 	font-size:45px;
+	color:#242f51;
+	font-weight:700;
+	padding-bottom: 20px;
+
+ }
+
+ .faq p{
+ 	font-size: 15px;
+	color: #616368;
+	font-weight: 500;
+	padding: 0px 290px 0px 290px;
+
+ }
+
